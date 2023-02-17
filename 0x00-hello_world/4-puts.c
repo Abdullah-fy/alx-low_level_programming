@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *main point starts here
  *return: zero on success
  */
