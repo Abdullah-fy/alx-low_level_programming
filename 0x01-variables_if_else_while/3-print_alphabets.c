@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * here is the start 
- * of the main point
- * discription : make lower and uppercase letters
+ * main - Entry point
+ * Description: prints alphabet in lowercase then uppercase
+ * Return: Always 0 (success)
  */
 int main(void)
 {
