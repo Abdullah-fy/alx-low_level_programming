@@ -1,4 +1,4 @@
-#include <stdioi.h>
+#include <stdio.h>
 int main(void)
 {
 	int ch;
