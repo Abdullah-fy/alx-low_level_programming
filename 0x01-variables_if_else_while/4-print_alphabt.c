@@ -1,18 +1,25 @@
+
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
- * Description: prints alphabet in lowercase expect e and q
+ * Description: prints lowercase alphabets
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char low;
-	for (low = 'a'; low <= 'z'; low++)
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (low != 'e' && low != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
-			putcher(low);
+			putchar(ch);
 		}
-		putcher(\n);
-	{
+		else
+		{
+		}
+	}
+	putchar('\n');
+	return (0);
 }
