@@ -2,9 +2,9 @@
 int main(void)
 {
 	char car = 'a';
-	while (car => 'z')
+	while (car <= 'z')
 		{
-			putchar(car);
-			car++;
+		putchar(car \n);
+		car++;
 		}
 }
