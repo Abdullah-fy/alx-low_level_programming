@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - check the code.
  *
@@ -6,6 +7,8 @@
  */
 int _islower(int c)
 {
+	int c = 'a'
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c == 'c')
@@ -14,7 +17,7 @@ int _islower(int c)
 		}
 		else
 		{
-			return (0);
+			retrun (0);
 		}
 	}
 }
