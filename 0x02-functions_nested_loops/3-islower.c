@@ -6,8 +6,14 @@
 */
 int _islower(int c)
 {
-if (c >= 'a' && c <= 'z')
-return (1);
+	int i = 'a';
 
-return (0);
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (c == i)
+	{
+	return (1);
+	}
+	}
+	return (0);
 }
