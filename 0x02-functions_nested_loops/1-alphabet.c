@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *main  print_alphabet - Entry point
  * Description: a function that prints the alphabet,
