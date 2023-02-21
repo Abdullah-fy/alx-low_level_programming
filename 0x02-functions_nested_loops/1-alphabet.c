@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * print_alphabet - Entry point
+ *main  print_alphabet - Entry point
  * Description: a function that prints the alphabet,
  * in lowecase followed by a new line
  * Return: void
