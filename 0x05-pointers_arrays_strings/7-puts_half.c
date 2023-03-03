@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * puts_half - prints the second half of the string
  * @str: the string reference
