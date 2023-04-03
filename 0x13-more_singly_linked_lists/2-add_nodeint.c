@@ -13,7 +13,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t  *ptr_node;
 
-	if (!head)
+	if (!head || !*head)
 	{
 		return (NULL);
 	}
@@ -24,5 +24,5 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	ptr_node->next = *head;
 	*head = ptr_node;
 
-	return (prt_node);
+	return (ptr_node);
 }
